@@ -1,2 +1,2 @@
 # Documents-of-basic-algorithm
-This repository include explanations of some simple algorithms
+This repository include explanations of some simple algorithms.
