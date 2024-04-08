@@ -45,7 +45,7 @@ int min(int n1, int n2) {return n1 < n2 ? n1 : n2;}
 
 + #### 时间复杂度： $O(n^2)$
 
-+ #### 空间复杂度：$O(1)$
++ #### 空间复杂度： $O(1)$
 
 ```c++
 // O(n^2) time complexity
