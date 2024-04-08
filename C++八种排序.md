@@ -66,7 +66,7 @@ bool insertionSort(std::vector<int>& nums, int start, int end) {
 
 + #### 时间复杂度： $O(n^2)$
 
-+ #### 空间复杂度：$O(1)$
++ #### 空间复杂度： $O(1)$
 
 ```c++
 // O(n^2) time complexity
@@ -87,7 +87,7 @@ bool bubbleSort(std::vector<int>& nums, int start, int end) {
 
 + #### 时间复杂度： $O(n^2)$
 
-+ #### 空间复杂度：$O(1)$
++ #### 空间复杂度： $O(1)$
 
 ```c++
 // O(n^2) time complexity
@@ -109,7 +109,7 @@ bool selectionSort(std::vector<int>& nums) {
 
 + #### 时间复杂度： $O(n log n)$
 
-+ #### 空间复杂度：$O(n)$
++ #### 空间复杂度： $O(n)$
 
 ```c++
 // Act as helper in merge sort
@@ -165,7 +165,7 @@ bool mergeSort(std::vector<int>& nums, int start, int end) {
 
 + #### 时间复杂度： $O(nlogn)$
 
-+ #### 空间复杂度：$O(n)$
++ #### 空间复杂度： $O(n)$
 
 ```c++
 // O(n log n) time complexity
@@ -186,7 +186,7 @@ bool heapSort(std::vector<int>& nums) {
 
 + #### 时间复杂度： $O(nlogn)$
 
-+ #### 空间复杂度：$O(1)$
++ #### 空间复杂度： $O(1)$
 
 ```c++
 // O(n log n) time complexity
@@ -228,7 +228,7 @@ bool quickSort(std::vector<int>& nums, int start, int end) {
 
 + #### 时间复杂度： $O(n)$
 
-+ #### 空间复杂度：$O(n)$
++ #### 空间复杂度： $O(n)$
 
 需要注意的是，这里的 $n$ 指的是这组数字中最大的数字。桶排序仅适用于排序自然数，且当自然数比较分散的时候排序效率并不高。
 
@@ -259,7 +259,7 @@ bool bucketSort(std::vector<int>& nums, int minimum, int maximum) {
 
 + #### 时间复杂度： $O(n \cdot m)$
 
-+ #### 空间复杂度：$O(n)$
++ #### 空间复杂度： $O(n)$
 
 这里的 $m$ 指的是排序数字的最大长度。这种排序方法在排序大量多位整数的时候比较高效。
 
